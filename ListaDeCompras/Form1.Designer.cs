@@ -76,6 +76,7 @@
             this.TxtNomeProduto.Name = "TxtNomeProduto";
             this.TxtNomeProduto.Size = new System.Drawing.Size(290, 26);
             this.TxtNomeProduto.TabIndex = 3;
+            this.TxtNomeProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtNomeProduto_KeyDown);
             // 
             // BtnAdd
             // 
@@ -85,6 +86,7 @@
             this.BtnAdd.TabIndex = 4;
             this.BtnAdd.Text = "Adicionar";
             this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // LibCompras
             // 
@@ -103,6 +105,7 @@
             this.BtnExcluir.TabIndex = 6;
             this.BtnExcluir.Text = "Excluir Item";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnLimpar
             // 
@@ -112,6 +115,7 @@
             this.BtnLimpar.TabIndex = 7;
             this.BtnLimpar.Text = "Limpar Lista";
             this.BtnLimpar.UseVisualStyleBackColor = true;
+            this.BtnLimpar.Click += new System.EventHandler(this.BtnLimpar_Click);
             // 
             // Form1
             // 
